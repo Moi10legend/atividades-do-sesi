@@ -1,0 +1,23 @@
+* {
+    margin-left: 10px;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.galeria > img {
+    
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    
+}
+
+.exercicio2_footer  {
+    position: fixed;
+    bottom: -2%;
+    
+    
+}
