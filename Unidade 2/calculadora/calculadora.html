@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="corpo">
+        <div class="calculadora">
+            <div class="partedecima">
+                <div class="visor">
+                    <p id="visor">0</p>
+                </div>
+            </div>
+            
+            <div class="operacoesdenumeros">
+                <ul class="buttons"> 
+                    <li><button class="button" type="button" onclick=""></button></li>
+                    <li><button class="button" type="button" onclick="clean()">C</button></li>
+                    <li><button class="button" type="button" onclick="">%</button></li>
+                    <li><button class="button" type="button" onclick=""><img src="https://cdn-icons-png.flaticon.com/512/3602/3602247.png" alt=""></button></li>
+                    <li><button class="button" type="button" onclick="">1/x</button></li>
+                    <li><button class="button" type="button" onclick="">x²</button></li>
+                    <li><button class="button" type="button" onclick=""><img src="https://i.pinimg.com/originals/99/80/6c/99806c535cda6e3d7594e65966734580.png" alt=""></button></li>
+                    <li><button class="button" type="button" onclick="">/</button></li>
+                    <li><button class="button" type="button" onclick="insert('7')">7</button></li>
+                    <li><button class="button" type="button" onclick="num8()">8</button></li>
+                    <li><button class="button" type="button" onclick="num9()">9</button></li>
+                    <li><button class="button" type="button" onclick="">x</button></li>
+                    <li><button class="button" type="button" onclick="num4()">4</button></li>
+                    <li><button class="button" type="button" onclick="num5()">5</button></li>
+                    <li><button class="button" type="button" onclick="num6()">6</button></li>
+                    <li><button class="button" type="button" onclick="">-</button></li>
+                    <li><button class="button" type="button" onclick="num1()">1</button></li>
+                    <li><button class="button" type="button" onclick="num2()">2</button></li>
+                    <li><button class="button" type="button" onclick="num3()">3</button></li>
+                    <li><button class="button" type="button" onclick="soma()">+</button></li>
+                    <li><button class="button" type="button" onclick=""></button></li>
+                    <li><button class="button" type="button" onclick="num0()">0</button></li>
+                    <li><button class="button" type="button" onclick="">,</button></li>
+                    <li><button class="button" type="button" onclick="">=</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="calculadora.js"></script>
+    <script src="adicaodenumeros.js"></script>
+</body>
+</html>

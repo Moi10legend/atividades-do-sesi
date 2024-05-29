@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <h1>Calcular Troco</h1>
+
+    <button onclick="mostrarCampos()">Calcular Troco</button>
+        
+        <div id="informações" style="display: none;">
+            <label for="preco">Valor:</label>
+            <input type="number" id="preço" placeholder="Valor">
+            <label for="dinheiro">Recebido:</label>
+            <input type="number" id="dinheiro" placeholder="Recebido">
+            <button onclick="Troco()">Troco</button>
+        </div>
+<p id="troco"></p>
+<script>
+    function mostrarCampos() {
+        var campos = document.getElementById('informações');
+        campos.style.display = 'block';
+    }
+    
+    function calcularTroco() {
+       
+        var preco = parseFloat(document.getElementById('preco').value);
+        var dinheiro = parseFloat(document.getElementById('dinheiro').value);
+        
+
+        var troco = dinheiro - preco;
+        if (!isNaN(troco)) {
+        if (troco >= 0) {
+            document.getElementById('resultado').innerText = 'Troco: R$ ' + troco.toFixed(2);
+        }
+     }
+    }
+    </script>
+    
+</body>
+</html>
