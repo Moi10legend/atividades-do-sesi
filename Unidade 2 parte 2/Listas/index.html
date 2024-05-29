@@ -6,10 +6,13 @@
     <title>Listas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    
+</style>
 <body>
     <header>
         <nav>
-            <ul class="menu">
+            <ul class="menu" style="list-style-type: circle;">
                 <li><a href="">home</a></li>
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Serviços</a></li>
@@ -18,26 +21,58 @@
         </nav>
     </header>
     <main>
-        <table border="1">
+        <form action="" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" >
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" placeholder="Digite o sua senha" >
+            <label for="email">Nome:</label>
+            <input type="text" name="nome" id="email" placeholder="Digite o seu nome" >
+        </form>
+        <section>
+            <h2>Itens Dinâmicos</h2>
+            <table id="dynamic-table">
+                <thead>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Mensagens</th>
+                </thead>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+            
+        </section>
+        <!-- <table>
             <thead>
+                <tr>
+                    <th style="text-align: center;" colspan="3">Aves</th>
+                </tr>
                 <tr>
                     <th>Nome</th>
                     <th>Habitat</th>
                     <th>Se voa</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>Calopsita</td>
+                    <td>Casas</td>
+                    <td>Voa</td>
+                </tr>
+                <tr>
+                    <td>Arara</td>
+                    <td>Mato</td>
+                    <td>Voa</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Tem cauda</td>
+                </tr>
+            </tfoot>
             
-            <tr>
-                <td>Calopsita</td>
-                <td>Casas</td>
-                <td>Voa</td>
-            </tr>
-            <tr>
-                <td>Arara</td>
-                <td>Mato</td>
-                <td>Voa</td>
-            </tr>
-        </table>
+        </table> -->
     </main>
 </body>
 </html>
