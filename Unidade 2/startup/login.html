@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
     <header>
@@ -12,14 +12,16 @@
     </header>
     <div class="loginBody">
         <h1 class="loginTitle">Login</h1>
-         <!-- <section class="inputs"> -->
+         
             <label for="input1" id="labelEmailCpf">Email ou CPF:</label>
+            <span class="userNotidentified"></span>
             <input type="text" id="inputEmailCpf" class="inputEmailCpf">
+
             <label for="input2" class="labelSenha">Senha:</label>
-            <input type="text" id="inputSenha" class="inputSenha">
-            <button type="button" class="enterButton">Entrar</button>
-         <!-- </section> -->
-        
+            <input type="password" id="inputSenha" class="inputSenha">
+            <button type="button" id="enterButton" class="enterButton">Entrar</button>
     </div>
+
+    <script src="./js/login.js"></script>
 </body>
 </html>
