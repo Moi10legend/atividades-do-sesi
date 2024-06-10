@@ -147,25 +147,32 @@ body {
   border: solid 2px white; 
   border-radius: .8em;
   padding: .5em;
-  
-  
+}
+
+.whoAreWe{
+  height: 500px;
 }
 
 .whoAreWe > h1{
   color: white;
-  margin: 2em;
+  margin-left: 2em;
 }
 
-footer{
-  height: auto;
-  /* background-color: #78F8FE; */
-  background-color: white;
+.whoAreWeContent{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  margin-left: 4em;
 }
 
-.adress{
-  font-weight: 600;
-  margin-left: 50px;
+.whoAreWeContent > img{
+  width: 600px;
 }
+
+.whoAreWeText{
+  border:solid white 2px;
+  border-radius: 10px;
+  height: 25em;
+  width: 40em;
+  margin-left: 5em;
+}
+

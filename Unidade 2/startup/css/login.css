@@ -51,7 +51,7 @@ input{
 }
 
 .labelSenha{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .inputEmailCpf, .inputSenha{
@@ -76,4 +76,19 @@ input{
     background-color: white;
     color:#051625;
     
+}
+
+.userErrorSpace{
+    margin-top: 20px;
+}
+
+.userError{
+    color: red;
+    border: solid red 1px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 45px;
+    background-color: aliceblue;
+    text-align: center;
+    text-justify: center;
 }

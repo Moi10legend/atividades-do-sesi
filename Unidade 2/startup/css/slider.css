@@ -18,7 +18,7 @@
 
 .slide{
     width: 25%;
-    position: relative;
+    position: static;
     
 }
 
@@ -39,7 +39,7 @@
 }
 
 .manual-navegation{
-    position: absolute;
+    position: static;
     width: 1000px;
     margin-top: -3%;
     display: flex;
@@ -87,9 +87,10 @@
 }
 
 .navegation-auto{
-    position: absolute;
+    position:absolute;
     width: 1000px;
-    margin-top: 459px;
+    
+   
     display: flex;
     justify-content: center;
 }

@@ -1,0 +1,90 @@
+.recommendedForYou{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.sectionHeader{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sectionTitle{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.viewAll{
+    background-color: aqua;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.viewAll:hover{
+    background-color: rgb(36, 98, 98);
+}
+
+.recommendedForYou h1{
+    color: white;
+    
+}
+
+.recommendedGame{
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendedGame img{
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.recommendedGame .gameImage{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+}
+
+.gameType{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.gameName{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.recommendedGame button{
+    background-color: aqua;
+    border: none;
+    color: rgb(254, 254, 254);
+    font-weight: 600;
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.recommendedGame button:hover{
+    background-color: rgb(36, 98, 98);
+}
