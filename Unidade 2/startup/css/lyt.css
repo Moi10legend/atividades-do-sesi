@@ -3,60 +3,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header  {
-    height: 100px;
-    display: grid;
-    position: sticky;
-    top: 0;
-    grid-template-columns: 1fr 1fr;
-    flex-direction: row;
-    align-items: center;
-    background-color: #051625;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.logos{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.btncadastro{
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-  padding-right: 2rem;
-}
-
-.btn-entre{
-  color: white;
-  text-decoration: none;
-  margin-bottom: .6rem;
-}
-
-.logo{
-  height: 40px;
-}
-
-.logo_ssg {
-    width: 100px;
-    margin-left: 20px;
-}
-
-.logo_sesi {
-  margin-left: 20px;
-  height: 40px;
-  width: 110px;
-}
-
-.logo_senai {
-  margin-left: 20px;
-  height: 40px; 
-  width: 110px;
-}
-
 /* .header_cadastro {
   display: inline;
   
@@ -77,7 +23,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  color: #051625;
+  color: white;
 }
 
   .menu {
@@ -170,9 +116,19 @@ body {
 
 .whoAreWeText{
   border:solid white 2px;
+  color: white;
   border-radius: 10px;
   height: 25em;
   width: 40em;
   margin-left: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.textArea{
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 450;
+}

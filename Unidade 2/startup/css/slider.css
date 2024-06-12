@@ -19,7 +19,6 @@
 .slide{
     width: 25%;
     position: static;
-    
 }
 
 #radio2:checked ~ .slide{
@@ -79,7 +78,7 @@
 }
 
 .navegation-auto div{
-    border: 2px solid rgb(88, 172, 246);
+    border: solid #d1deea 2px;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -87,10 +86,10 @@
 }
 
 .navegation-auto{
-    position:absolute;
+    position: absolute;
     width: 1000px;
+    margin-top: 470px;
     
-   
     display: flex;
     justify-content: center;
 }
@@ -100,17 +99,17 @@
 }
 
 #radio1:checked ~ .navegation-auto .auto-btn1{
-    background-color: white;
+    background-color: #d1deea;
 }
 
 #radio2:checked ~ .navegation-auto .auto-btn2{
-    background-color: white;
+    background-color: #d1deea;
 }
 
 #radio3:checked ~ .navegation-auto .auto-btn3{
-    background-color: white;
+    background-color: #d1deea;
 }
 
 #radio4:checked ~ .navegation-auto .auto-btn4{
-    background-color: white;
+    background-color: #d1deea;
 }

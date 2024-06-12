@@ -1,0 +1,53 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #051625;
+}
+
+.types{
+    background-color: #d1deea;
+}
+
+/* .content{
+    display: flex;
+    flex-direction: row; 
+}  */
+
+.content{
+    margin-left: 40px;
+}
+
+.content > h1{
+    color: white;
+}
+
+.games > ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.game{
+    color: white;
+    margin-top: 20px;
+}
+
+.game > a{
+    text-decoration: none;
+    color: white;
+}
+
+.game > a > img{
+    height: 300px;
+}
+
+.gameName{
+    font-size: 20px;
+}
+
+.price{
+    font-size: 15px;
+}
+

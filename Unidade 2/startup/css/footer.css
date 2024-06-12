@@ -13,9 +13,13 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.contact{
+  margin-left: 50px;
+}
+
 .location{
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 100px;
     width: 400px;
 }
 
