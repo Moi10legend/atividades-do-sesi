@@ -3,6 +3,7 @@
     flex-direction: column;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 3em;
 }
 
 .sectionHeader{
@@ -17,6 +18,7 @@
     text-align: start;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .viewAll{
@@ -28,6 +30,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
 .viewAll:hover{

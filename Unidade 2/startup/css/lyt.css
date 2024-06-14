@@ -1,5 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: #051625;
+  background-color: hsl(208, 76%, 8%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -24,10 +28,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   color: white;
+  margin-top: 50px;
 }
 
   .menu {
     text-align: center; 
+    margin-top: 50px;
   }
   
   .menu ul {
@@ -58,11 +64,17 @@ body {
 .tranding {
   background-color: #051625;
   margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .tranding > h1 {
   color: white;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.tranding > ul > li > p{
+  margin-top: 2em;
 }
 
 .games_list {
@@ -102,6 +114,7 @@ body {
 .whoAreWe > h1{
   color: white;
   margin-left: 2em;
+  margin-bottom: 1em;
 }
 
 .whoAreWeContent{
@@ -119,7 +132,7 @@ body {
   color: white;
   border-radius: 10px;
   height: 25em;
-  width: 40em;
+  width: 35em;
   margin-left: 5em;
   display: flex;
   align-items: center;

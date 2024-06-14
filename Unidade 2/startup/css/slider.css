@@ -38,7 +38,7 @@
 }
 
 .manual-navegation{
-    position: static;
+    position: absolute;
     width: 1000px;
     margin-top: -3%;
     display: flex;
@@ -78,7 +78,7 @@
 }
 
 .navegation-auto div{
-    border: solid #d1deea 2px;
+    border: solid white 2px;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -88,7 +88,7 @@
 .navegation-auto{
     position: absolute;
     width: 1000px;
-    margin-top: 470px;
+    margin-top: 460px;
     
     display: flex;
     justify-content: center;

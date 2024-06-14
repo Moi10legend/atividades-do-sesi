@@ -1,7 +1,7 @@
 .header  {
     height: 100px;
     display: grid;
-    position: sticky;
+    
     top: 0;
     grid-template-columns: 1fr 1fr;
     flex-direction: row;
@@ -23,6 +23,10 @@
   justify-content: right;
   align-items: center;
   padding-right: 2rem;
+}
+
+.perfil-button{
+  height: 40px;
 }
 
 .btn-entre{
