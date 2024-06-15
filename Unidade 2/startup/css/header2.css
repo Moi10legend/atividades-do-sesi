@@ -1,0 +1,61 @@
+.header  {
+    height: 100px;
+    display: grid;
+    
+    top: 0;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    background-color: #051625;
+    color: #051625;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btncadastro{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.perfil-button{
+  height: 40px;
+}
+
+.perfil_branco{
+    margin-top: 15px;
+}
+
+.btn-entre{
+  color: white;
+  text-decoration: none;
+  margin-bottom: .6rem;
+}
+
+.logo{
+  height: 100%;
+}
+
+.logo_ssg {
+    width: 100px;
+    margin-left: 0;
+}
+
+.logo_sesi {
+  margin-left: 20px;
+  height: 40px;
+  width: 110px;
+}
+
+.logo_senai {
+  margin-left: 20px;
+  height: 40px; 
+  width: 110px;
+}

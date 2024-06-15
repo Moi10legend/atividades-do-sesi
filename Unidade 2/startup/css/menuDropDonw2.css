@@ -1,0 +1,28 @@
+.dropDonw{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dropDonw-menu{
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 2px white;
+    margin-top: 60px;
+}
+
+.dropDonw-menu a{
+ display: block;
+ color: white;
+ text-decoration: none;
+ padding: 5px;
+}
+
+.dropDonw-menu a:hover{
+    background-color: white;
+    color: #051625;
+}
+
+.dropDonw:hover .dropDonw-menu{
+    display: block;
+}

@@ -1,3 +1,77 @@
 body{
     background-color: #051625;
 }
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    color: white;
+}
+
+section{
+    width: 50vw;
+}
+
+section > h1{
+    margin-bottom: 20px ;
+}
+
+section > img{
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+section > p{
+    margin-top: 20px;
+    width: 600px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    height: 400px;
+}
+
+aside > button{
+    margin-top: 20px;
+    border: solid 2px white;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #051625;
+    color: white;
+    cursor: pointer;
+}
+
+aside > button:hover, .buy-buttons > button:hover{
+    background-color: white;
+    color: #051625;
+}
+
+aside > p{
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buy-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-buttons > button{
+    margin-top: 20px;
+    
+    border: solid 2px white;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #051625;
+    color: white;
+    cursor: pointer;
+}
+
+.buy-buttons > button:not(:first-child){
+    margin-left: 10px;
+}
