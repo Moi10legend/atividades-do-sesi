@@ -58,7 +58,22 @@ class Cliente{
         this.ocupacao = ocupacao
     }
 
-    get
+    get valorDaRendaAnual(){
+        return this.rendaAnual
+    }
+
+    set novaRendaAnual(rendaAnual){
+        this.rendaAnual = rendaAnual
+    }
+
+    get valorDoNivelDeEscolaridade(){
+        return this.nivelDeEscolaridade
+    }
+
+    set novoNivelDeEscolaridade(nivelDeEscolaridade){
+        this.nivelDeEscolaridade = nivelDeEscolaridade
+    }
+    
     reatorioDoCliente(){
         console.log(`
         Nome: ${this.nome}
@@ -68,6 +83,7 @@ class Cliente{
         Email: ${this.email}
         Ocupação: ${this.ocupacao}
         Renda anual: ${this.rendaAnual}
+        Nível de escolaridade: ${this.nivelDeEscolaridade}
         `)
     }
 }

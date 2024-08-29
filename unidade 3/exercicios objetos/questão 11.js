@@ -5,6 +5,30 @@ class Triangulo{
         this.ladoC = ladoC
     }
 
+    get valorDoLadoA(){
+        return this.ladoA
+    }
+
+    set novoLadoA(ladoA){
+        this.ladoA = ladoA
+    }
+
+    get valorDoLadoB(){
+        return this.ladoB
+    }
+
+    set novoLadoB(ladoB){
+        this.ladoB = ladoB
+    }
+
+    get valorDoLadoC(){
+        return this.ladoC
+    }
+
+    set novoLadoC(ladoC){
+        this.ladoC = ladoC
+    }
+
     calcularArea(){
         let area 
 

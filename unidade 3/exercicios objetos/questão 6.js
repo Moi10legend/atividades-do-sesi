@@ -5,6 +5,21 @@ class Animal{
 
     }
 
+    get nomeDoAnimal(){
+        return this.animal
+    }
+
+    set novoAnimal(animal){
+        this.animal = animal
+    }
+
+    get valorDoTipo(){
+        return this.tipo
+    }
+
+    set novoTipo(tipo){
+        this.tipo = tipo
+    }
     emitirSom(){ 
         throw new Error("O método emitir som deve ser implementado.");
     }
@@ -13,9 +28,7 @@ class Animal{
 class Vaca extends Animal{
 
 
-    get nomeDoAnimal(){
-        return this.animal
-    }
+    
     emitirSom(){
         console.log("MUUUU")
     }
