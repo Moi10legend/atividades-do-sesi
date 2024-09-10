@@ -1,0 +1,30 @@
+header > .container{
+    background-color: orange ;
+    width: 100%;
+}
+
+#col1 img{
+    background-color: orange;
+    width: 100px;
+}
+
+#col2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#col2 h1{
+    margin-right: 5rem;
+}
+
+nav{
+    
+    padding: .5em;
+}
+
+nav > .row > .col > a{
+    text-decoration: none;
+    color: black;
+}
