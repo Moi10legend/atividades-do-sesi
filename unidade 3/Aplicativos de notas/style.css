@@ -1,11 +1,21 @@
-header > .container{
+header{
     background-color: orange ;
     width: 100%;
+
+}
+
+#col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
 }
 
 #col1 img{
     background-color: orange;
     width: 100px;
+    margin-left: 1em;
+   
 }
 
 #col2 {
@@ -20,11 +30,23 @@ header > .container{
 }
 
 nav{
+    background-color: orange;
     
-    padding: .5em;
 }
 
 nav > .row > .col > a{
-    text-decoration: none;
-    color: black;
+    color: white;
 }
+
+nav > .row > .col > a:hover{
+    text-decoration: none;
+    background-color: white;
+    padding: white;
+    color: black;
+    transition: .5s;
+    
+}
+
+
+
+

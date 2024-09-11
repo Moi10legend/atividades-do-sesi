@@ -1,0 +1,20 @@
+.titulo{
+
+}
+
+#inserirTexto{
+    height: 20em;
+}
+
+#botaoEnviar{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+
+
+#botaoEnviar:hover{
+    background-color: rgb(203, 135, 9);
+    transition: .5s;
+}
