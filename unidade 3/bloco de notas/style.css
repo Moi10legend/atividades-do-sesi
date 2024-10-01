@@ -30,6 +30,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #col2 h1{
@@ -100,3 +101,23 @@ header{
     align-items: start;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+@media only screen and (max-width: 600px) {
+    #espacoDasNotas{
+        display: grid;
+        justify-content: flex-start;
+        align-items: start;
+        grid-template-columns: 1fr;
+    }
+
+    #col2{
+        width: 100%;
+    }
+
+    #col2 h1{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+  }
